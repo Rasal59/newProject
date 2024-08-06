@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+   }
+   nav {
+    background-color: #333;
+    padding: 1rem;
+   }
+   nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+   }
+   nav a:hover {
+    text-decoration: underline;
+   }
+   main {
+    padding: 2rem;
+   }
+   form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+   .question {
+    margin-bottom: 1.5rem;
+   }
+   label {
+    display: block;
+    margin-bottom: 0.5rem;
+   }
+   input[type="text"],
+   input[type="radio"] {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+   button:hover {
+    background-color: #555;
+   }
+   #timer {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: red;
+   }
+   
